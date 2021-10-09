@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form </title>
+</head>
+<body>
+ <form>
+    <header>
+        <h2>Fill your details.</h2>
+        <h3>Required field are marked *</h3>
+    </header>
+    <main>
+        <div>
+            <label for="Username">Username* : </label>
+            <input type="text" id="Username" name="Username" required>
+        </div><br>
+        <div>
+            <label for="emailid">Email ID* : </label>
+            <input type="email" id="emailid" name="emailid" placeholder="abc@gmail.com" required>
+        </div><br>
+        <div>
+            <label for="country">Country : </label>
+            <input type="text" name="country" value="India">
+        </div><br>
+        <div>
+            <h3>Gender* : </h3>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="other">other<br>
+        </div>
+        <div>
+            <h3>Courses you would like to enroll : </h3>
+            <input type="checkbox" name="Course1" value="maths">Mathematics<br>
+            <input type="checkbox" name="Course2" value="physics">Physics<br>
+            <input type="checkbox" name="Course3" value="chemistry">Chemistry<br>
+            <input type="checkbox" name="Course4" value="biology">Biology<br>
+        </div>
+        <div>
+            <h3>Select your stream : </h3>
+            <select name="select">
+                <option value="value1">PCMB</option>
+                <option value="value2">PCME</option>
+                <option value="value3" selected>PCMC</option>
+            </select>
+        </div>
+        <div>
+            <h3>Write about yourself : </h3>
+            <textarea rows="10" cols="30"></textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend><h3>Subscribe : </h3></legend>
+                Name : <input type="text" name="name"><br>
+                Email : <input type="text" name="email" placeholder="abcd@gmail.com"><br>
+                <!-- <button type="Subscribe">
+                    <img src="C:\Users\admin\Desktop\web dev\subscribe.jpg" alt="Subscribe button" height="40" width="80">
+                </button> -->
+                </fieldset>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit form">
+        </div>
+    </main>
+ </form>
+</body>
+</html>
