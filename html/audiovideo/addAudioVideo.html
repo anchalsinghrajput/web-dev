@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding audio and video</title>
+</head>
+<body>
+    <img src="memories.jpg" ><br>
+   <!-- method 1 for audio -->
+    <audio src="audio.mp3" controls></audio><br>
+    <!-- method 2 for audio -->
+    <audio controls>
+        <!-- multiple source can be added , whichever browser supports will get played -->
+        <source src="audio.mp3" type="audio/mp3">
+    </audio><br>
+    <!-- method 1 for video -->
+    <video src="video.mp4" height="300" width="500" controls>Memories</video>
+    <!-- method 2 for video -->
+    <video height="400" width="600" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
