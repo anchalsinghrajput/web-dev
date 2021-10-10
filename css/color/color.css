@@ -1,0 +1,38 @@
+/* methods to specify colour in css */
+
+/* method 1  (normal color) */
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+}
+/* method 2 (rgb(red,green,blue)color */
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(25,126,200); 
+}
+/* method 3 (rgb color in hexadecimal color) */
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: #393a7b; 
+}
+/* method 3 (rgba (red,green,blue,alpha(opacity-->ranges from 0 to 1)) */
+#div4{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(221, 15, 228, 0.5); 
+}
+/* method 4 (hsl(hue,saturation,lightness)) */
+/* hue ---> 0 degree for red, 120 for green, 240 for blue  */
+#div5{
+    height: 200px;
+    width: 200px;
+    background-color:hsl(120,78%,40%);
+}
+#div6{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(195, 228, 50, 0.5);
+}
