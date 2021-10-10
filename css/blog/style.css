@@ -1,0 +1,43 @@
+*{
+    color: darkturquoise;
+    background-color:rgb(247, 214, 214);
+}
+
+/* converting lower case into uppercase */
+/* h3{
+    text-transform: uppercase;
+} */
+
+/* class */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+/* id */
+#blog-desc{
+    color: rgb(34, 15, 139);
+}
+
+p,h3,.uppercase,#blog-desc{
+    font-family: sans-serif;
+}
+
+/* in list , h2 heading will be change perticularly(this is called nesting) */
+li h2{ 
+    /* font-family: cursive; */
+    text-transform: uppercase;
+}
+
+/* id nesting */
+#blog-desc p{ 
+    color: rgb(34, 15, 139);
+}
+
+/* when we put our mouse pointer on that percular element then the color of the text changes  */
+#blog-title:hover{
+    color: black;
+}
