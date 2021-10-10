@@ -1,0 +1,45 @@
+/* specifing the unit in css */
+/* method 1 , using pixel */
+/* 1px = 1/96 inch */
+#div1{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+/* #div2{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+} 
+OR
+*/
+/* method 2 , using percentage */
+
+#div2{
+    height: 50%;   /*relative to the height of the parent i.e 50% of 200*/
+    width: 50%;     /*relative to the width of the parent i.e 50% of 300*/
+    background-color: red;
+}
+
+/* method 3 using viewport height(relative to height of the browser window size) and viewprt width */
+#div3{
+    height: 50vh;
+    width: 50vw;
+    background-color: blue;
+}
+
+/* method 3 rem (relative to font-size of the root element) (1rem=20px)*/
+html{
+    font-size: 30px;
+}
+#div4{
+    height: 6rem;
+    width: 4rem;
+    background-color: rgb(0, 255, 55);
+}
+/* method 4 em (relative to the font size of the element)  2 em means 2 times the size of the current font */
+#div5{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(247, 0, 255);
+}
