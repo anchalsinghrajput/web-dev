@@ -1,0 +1,36 @@
+#div1{
+    height : 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border-width:2px 4px 6px 8px;    /* top , right, bottom, left */
+    /* border-width: 4px 8px;           (top,bottom will be 4px) (right, left will be 8px)*/ 
+    /* border-width: 2px 4px 6px        (top-> 2px and right,left->4px and bottom->6px */
+    /* border-width: 2px;               (all side 2px border)  */
+    border-style: solid;
+    border-color: black;
+}
+/* shortcut for border */
+#div2{
+    height:250px;
+    width:250px;
+    border: 4px rgb(73, 2, 2) dotted;
+}
+
+/* rounded border at edges */
+#div3{
+    height:300px;
+    width:300px;
+    border: 4px rgb(28, 143, 47) solid;
+    border-radius: 10px;
+}
+#div4{
+    height:300px;
+    width:300px;
+    border: 4px rgb(0, 0, 0) solid;
+    border-radius: 50%;  /* 50% or 500px */
+}
+
+/* setting only left border */
+#sample-text{
+    border-left: 8px solid red;
+}
