@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;;
+}
+.thumbnail, .row
+{
+    background-color: #eee;
+}
+
+body 
+{
+    margin-top: 33px;
+}
+
+.thumbnail .caption 
+{
+    background-color: #ddd;
+}
+
+.thumbnail-center, .col-md-12
+{
+    width: 50%;
+    margin: 0 auto;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.container
+{
+    border: solid 2px rgb(100, 60, 60);
+    position: relative;
+    border-radius: 10px;
+}
+
+.col-md-12
+{
+    background-color: #eee;
+    position: relative;
+    text-align: center;
+}
+
+.content
+{
+    background-color: #eee;
+    width: 70%;
+    margin: 0px 100px 0px 300px;
+    border: solid 2px white;
+    border-radius: 10px;
+    /* margin-left: 200px;
+    margin-top: -20px; */
+    display: inline-block;
+}
+
+.img-circle
+{
+    border-radius: 50%;
+}
