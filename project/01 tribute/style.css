@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(220,220,230);
+    margin: 0;
+}
+.center
+{
+    position: relative;
+    text-align: center;
+}
+
+.name
+{
+    color: #337ab7;
+    font-size: xx-large;
+    letter-spacing: 1mm;
+}
+.equation
+{
+    color: rgb(104, 158, 22);
+    font-size: x-large;
+}
+
+.middle-text
+{
+    font-size:0.6cm;
+}
+
+.last-text
+{
+    font-size: larger;
+    color: green;
+}
+a
+{
+    font-size: large;
+    color:#337ab7 ;
+}
+
+figcaption
+{
+    font-weight: bold ;
+}
+
+.things
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.credit
+{
+    margin-left: 30px;
+}
