@@ -1,11 +1,29 @@
-.button {
-display: block;
+ body
+ {
+   background-color: #eee;
+ }
+ .button {
 width: 115px;
-height: 25px;
+height: 32px;
 background: #4E9CAF;
 padding: 10px;
-text-align: center;
+margin : 1px 2px 20px 1px;
+text-align: justify;
 border-radius: 5px;
 color: white;
 font-weight: bold;
+float: left;
+}
+
+.left
+{
+  color: red;
+  clear: left;
+}
+
+h1,h2
+{
+  background-color: #ccc;
+  text-align: center;
+  border : solid black 1px;
 }
