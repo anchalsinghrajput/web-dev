@@ -1,0 +1,42 @@
+
+h1,h2
+{
+    text-align: center;
+}
+nav
+{
+    display: block;
+    text-align: center;
+    word-spacing: 5px;
+}
+img
+{
+    display: block;
+    margin: auto;
+}
+
+.left
+{
+    border-right: 2px solid black;
+    padding-right: 55px;
+    margin-left: 20%;
+    float: left;
+}
+
+.right
+{
+    margin-right: 15%;
+    float: right;
+}
+footer
+{
+    margin-top: 200px;
+    text-align: center;
+}
+.container
+{
+    position: relative;
+    border: 2px solid ;
+    margin-left: 500px;
+    margin-right: 500px;
+}
