@@ -1,0 +1,29 @@
+.yellow{
+  background-color: yellow;
+  text-align: center;
+}
+
+.main{
+  position: absolute;
+  border-left: solid 3px black;
+  padding-left: 20px;
+  margin: -150px 300px 0px 300px;
+  line-height: 35px;
+}
+
+.right{
+  margin-top: -150px;
+  position: absolute;
+  margin-left: 1100px;
+  border: dotted green 2px ;
+  padding: 5px;
+}
+
+footer{
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+a{
+  color: blue;
+}
