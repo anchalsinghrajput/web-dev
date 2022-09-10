@@ -28,6 +28,7 @@ p{
     margin-left: 30%;
     font-size: larger;
 }
+
 ul
 {
     display: flex;
@@ -157,4 +158,10 @@ a
         flex-direction: column;
     }
 
+}
+
+@media only screen and (max-width:360px){
+    h1{
+        margin-left: 23%;
+    }
 }
