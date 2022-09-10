@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Qwitcher+Grypen:wght@700&family=Rampart+One&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #e0e0e0;
+}
+h1{
+    color: rgba(0,0,0,.6);
+    margin-top: 50px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    /* margin-left: 25%; */
+    /* margin-top: 20px; */
+}
+h2{margin-left: 90px;
+    margin-bottom: 50px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    font-size: larger;
+}
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:70%;
+    margin-right: 20px;
+    gap:15px
+}
+
+.navbar
+{
+    list-style: none;
+    box-shadow: 2px 6px 10px 8px rgb(209, 207, 207);
+    border-radius: 20px;
+    padding: 15px 15px;
+    background-color:#e0e0e0;
+    margin-top: 20px;
+    
+}
+a
+{
+    color: black;
+    text-decoration: none;
+    position: sticky;
+}
+.navbar:hover
+{
+   
+    box-shadow: 2px 6px 12px 8px rgb(248, 234, 234);
+    border-radius: 29px;
+    background-color: white;
+}
+.navbar:active
+{
+    background-color: rgb(248, 234, 234);
+}
+
+.about
+{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.img-me
+{
+    width: 200px;
+    border: 0px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 8px rgb(143, 138, 138);
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 840px) {
+    ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:0%;
+        margin-right: 20px;
+        gap:15px
+    }
+    .hey
+    {
+        margin-top: 30px;
+        margin-bottom: -40px
+    }
+}
+
+.hey
+{
+    /* font-family: 'Qwitcher Grypen', cursive; */
+    font-family: 'Rampart One', cursive;
+    color: black;
+    font-size: 20px;
+    /* text-shadow: 0px 0px 20px 2px red; */
+    text-shadow: 2px 5px white;
+    /* text-decoration: cu; */
+}
+
+.about-me
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(71, 67, 67);
+}
+.img-project
+{
+    width: 300px;
+    height: 350px;
+}
+.project
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:8%;
+}
+.box
+{
+    box-shadow: 2px 6px 12px 8px white;
+    padding: 1%;
+}
+
+@media only screen and (max-width:600px){
+    .about
+    {
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    .project
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
